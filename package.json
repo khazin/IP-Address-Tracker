@@ -1,0 +1,22 @@
+{
+  "name": "ip-address-tracker",
+  "version": "1.0.0",
+  "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i src/styles.css -o public/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khazin/IP-Address-Tracker.git"
+  },
+  "author": "Khazin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khazin/IP-Address-Tracker/issues"
+  },
+  "homepage": "https://github.com/khazin/IP-Address-Tracker#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.8"
+  }
+}

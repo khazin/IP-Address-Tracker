@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+<link rel="stylesheet" href="public/styles.css">
+    <title>Frontend Mentor | IP Address Tracker</title>
+  </head>
+  <body class="font-rubikSans">
+    <div class="container__main">
+      <div class="header flex flex-col items-center">
+        <div class="header__title text-white text-center">IP Address Tracker</div>
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Search for any IP address or domain"
+          />
+          <button type="button"></button>
+        </div>
+        <div class="info">
+          <div class="info__wrapper">
+            <div class="info__title">IP Address</div>
+            <div class="info__data"></div>
+          </div>
+          <div class="info__wrapper">
+            <div class="info__title">Location</div>
+            <div class="info__data"></div>
+          </div>
+          <div class="info__wrapper">
+            <div class="info__title">Timezone</div>
+            <div class="info__data">
+              UTC
+              <!-- add offset value dynamically using the API -->
+            </div>
+          </div>
+          <div class="info__wrapper">
+            <div class="info__title">ISP</div>
+            <div class="info__data"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | IP Address Tracker</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  IP Address Tracker
-
-  Search for any IP address or domain
-
-  IP Address
-  Location
-  Timezone
-    UTC <!-- add offset value dynamically using the API -->
-  ISP
-  
-  <div class="attribution">
+    <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </div> -->
+  </body>
 </html>
